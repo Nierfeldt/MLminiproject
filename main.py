@@ -33,8 +33,8 @@ gamma = 0.95  # Discount factor (retains focus on long-term rewards)
 epsilon = 0.1  # Initial exploration rate
 epsilon_decay = 0.1  # Slower decay for more exploration
 min_epsilon = 0.1  # Minimum exploration rate
-episodes = 5000  # Increased episodes for better learning on large maps
-max_steps = 500  # Maximum steps per episode
+episodes = 30000  # Increased episodes for better learning on large maps
+max_steps = 1000  # Maximum steps per episode
 
 episode_rewards = []
 states_visited = []
